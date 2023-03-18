@@ -1,0 +1,169 @@
+body {
+    padding: 0 10% 50px 10%;
+}
+
+
+.header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-label {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+}
+
+.logo {
+    font-family: "Cedarville Cursive";
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.nav-top {
+    display: flex;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 80px;
+}
+
+.header-slogan {
+    font-family: 'Cedarville Cursive';
+    font-weight: 400;
+    font-size: 28px;
+}
+
+.header-text {
+    font-family: "Josefin Sans";
+    font-weight: 700;
+}
+
+.h1-font-size {
+    font-size: 63px;
+}
+
+.button {
+    background-color: #2D635E;
+    color: #FFFFFF;
+    border: none;
+}
+
+.button-small {
+    border-radius: 7px;
+    width: 135px;
+    height: 43px;
+}
+
+.button-big {
+    border-radius: 5px;
+    width: 235px;
+    height: 54px;
+}
+
+.main-block {
+    margin-top: 2%;
+    display: flex;
+    justify-items: space-between;
+}
+
+.main-block-text-picture {
+    display: flex;
+    width: 90%;
+    align-items: flex-end;
+    justify-self: space-between;
+    /* display: grid;
+    grid-template-columns: 2fr 1fr 1fr; */
+}
+
+.nav-aside {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-font {
+    font-family: "Josefin Sans";
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.menu-font-align {
+    text-align: justify;
+}
+
+.square-light-green {
+    background-color: #E3EBE7;
+    width: 159px;
+    height: 157px;
+    opacity: 0.4;
+    font-size: 25px;
+    text-align: center;
+    /* vertical-align: text-bottom; */
+    /* vertical-align: center; */
+    /* justify-self: flex-end; */
+    
+}
+
+/* .arrow {
+    font-size: 25px;
+} */
+
+.jar-wrap {
+    position: relative;
+    /* width: 40%; */
+    /* justify-self: flex-start; */
+    height: 100%;
+}
+
+.square-green {
+    position: absolute;
+    z-index: 1;
+    background-color: #E3EBE7;
+    width: 410px;
+    height: 466px;
+}
+
+.jarr {
+    position: absolute;
+    z-index: 2;
+    width: 344px;
+    height: 373px;
+    bottom: -9em;
+    left: 2em;
+}
+
+.label {
+    position: absolute;
+    z-index: 3;
+    /* width: 200px;
+    height: 137px; */
+    font-family: "Cedarville Cursive";
+    font-weight: 400;
+    font-size: 72px;
+    color: #444A4A;
+    top: 3.6em;
+    left: 1.8em;
+}
+
+.follow-us {
+    color: #444A4A;
+    font-family: "Josefin Sans";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    transform: rotate(270deg);
+    align-self: stretch;    
+    margin: 30% 0 0 0;
+}
+
+.footer {
+    font-size: 19px;
+    font-family: "Alegreya Sans";
+    font-weight: 400;
+    color: #444A4A;
+    text-align: center;
+}
