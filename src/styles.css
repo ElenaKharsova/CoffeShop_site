@@ -48,6 +48,10 @@ body {
     border: none;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .button-small {
     border-radius: 7px;
     width: 135px;
@@ -70,7 +74,7 @@ body {
     display: flex;
     width: 90%;
     align-items: flex-end;
-    justify-self: space-between;
+    justify-items: space-between;
     /* display: grid;
     grid-template-columns: 2fr 1fr 1fr; */
 }
@@ -166,4 +170,8 @@ body {
     font-weight: 400;
     color: #444A4A;
     text-align: center;
+}
+
+.link {
+    cursor: pointer;
 }
