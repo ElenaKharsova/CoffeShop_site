@@ -1,4 +1,5 @@
-https://img.shields.io/static/v1?label=HTML&message=HTML&color=blue
+<img src="https://img.shields.io/badge/HTML-blue"> <img src="https://img.shields.io/badge/CSS-blue"> 
+<img src="https://img.shields.io/badge/figma-green"> <img src="https://img.shields.io/badge/design-green">
 
 ## Coffee Shop landig
 
