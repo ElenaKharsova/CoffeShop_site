@@ -1,7 +1,7 @@
 <img src="https://img.shields.io/badge/HTML-blue"> <img src="https://img.shields.io/badge/CSS-blue"> 
 <img src="https://img.shields.io/badge/figma-green"> <img src="https://img.shields.io/badge/design-green">
 
-## Coffee Shop landig
+## Coffee Shop landing
 
 This is a demo poject for HTML+CSS coding. 
 
