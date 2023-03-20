@@ -2,13 +2,5 @@
 const buttonOrder = document.querySelector(".button-big");
 
 buttonOrder.addEventListener("click", () => {
-    alert("Order, please");
+    alert("you are fool yes yes yes");
 });
-
-// buttonOrder.addEventListener("mouseenter", (event) => {
-//     event.target.style.background = "green";
-// })
-
-// buttonOrder.addEventListener("mouseleave", (event) => {
-//     event.target.style.background = "#2D635E";
-// })

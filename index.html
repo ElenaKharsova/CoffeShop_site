@@ -17,33 +17,68 @@
             <p class="logo">Samwayle</p>
         </div>
         <nav class = "nav-top">
-            <p class="menu-font menu-font-align link">About us</p>
-            <p class="menu-font menu-font-align link">Promotion</p>
-            <p class="menu-font menu-font-align link">Shop</p>
-            <p class="menu-font menu-font-align link">Contacts</p>
+            <a class="menu-font menu-font-align" href="#About_us">About us</a>
+            <a class="menu-font menu-font-align" href="#Promotion">Promotion</a>
+            <a class="menu-font menu-font-align" href="#">Shop</a>
+            <a class="menu-font menu-font-align" href="#Contact_us">Contacts</a>
             <button class="button menu-font button-small">Contact Us</button>
         </nav>
     </header>
-    <div class="main-block">
-        <main class="main-block-text-picture">
-            <div>
-                <p class="header-slogan">Drink coffee, enjoy with Samwyle</p>
-                <h1 class="header-text h1-font-size">Coffee Shop</p>
-                <button class="button menu-font button-big">Order here</button>
-            </div>
-            <p class="square-light-green link">&rarr;</p>
-            <div class="jar-wrap">
-                <div class="square-green"></div>
-                <img class="jarr" src="./src/images/Jarr.png">
-                <p class="label">Coffee</p>
-            </div>
-        </main>
+    <div class="general">
+        <div class="page">
+            <main class="main-block">
+                <div class="main-block-text">
+                    <p class="header-slogan">Drink coffee, enjoy with Samwyle</p>
+                    <h1 class="header-text">Coffee Shop</p>
+                    <button class="button menu-font button-big">Order here</button>
+                </div>
+                <a class="square-light-green" href="#">&rarr;</a>
+                <div class="jar-wrap">
+                    <p class="jar-label">Coffee</p>
+                    <img class="jarr" src="./src/images/Jarr.png">
+            </main>
+            <section class="about-us" id="About_us">
+                <div class="cup-wrap">
+                    <p class="vertical-label cup-label">About us</p>
+                    <img class="cup" src="./src/images/cup.png">
+                </div>
+                <article>
+                    <h2 class="header-text">Coffee Shop Samwayle</h2>
+                    <p>Only one moment - when the barista reaches out over the bar to transfer the cup to the outstretched 
+                        hand of the buyer.
+                        But this is exactly the moment when a connection arises between us and our guests. </p>
+                    <p>And we strive to do our best to maintain this connection - starting with our commitment to selecting 
+                        the highest quality coffee in the world and ending with how we interact with guests and 
+                        organizations to fulfill our obligations.</p>
+                </article>
+            </section>
+            <section class="promotion" id="Promotion">
+                <article>
+                    <h2 class="header-text">Coffee of the day</h2>
+                    <p>Americano coffee (Italian: Caffè Americano) is an espresso diluted with hot water. The presence of foam 
+                        (cream) depends on how coffee and water are mixed.
+                        Attention! The concepts of “American” and “American coffee” should not be confused. n the second case, 
+                        this refers not to diluted espresso, but to a drink prepared through a filter system.
+                    </p>
+                </article>
+                <div class="glass-wrap">
+                    <p class="vertical-label glass-label">Promotion</p>   
+                    <img src="./src/images/glass.svg" class="glass">                 
+                </div>
+            </section>
+        </div>
         <aside>
             <nav class="nav-aside">
-                <img class="link" src="./src/images/twitter.png">
-                <img class="link" src="./src/images/instagram.png">
-                <img class="link" src="./src/images/facebook.png">
-                <p class="follow-us link">Follow us</p>
+                <a href="#">
+                    <img src="./src/images/twitter.png">
+                </a>
+                <a href="#">
+                    <img src="./src/images/instagram.png">                
+                </a>
+                <a href="#">
+                    <img src="./src/images/facebook.png">
+                </a>
+                <p class="follow-us" id="Contact_us">Follow us</p>
             </nav>
         </aside>
     </div>
