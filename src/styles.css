@@ -1,241 +1,240 @@
 body {
-    padding: 0 10% 50px 10%;
+  padding: 0 10% 50px 10%;
 }
 
-
 .header {
-    display: flex;
-    gap: 20px;
-    align-items: center;
-    justify-content: space-between;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo-label {
-    display: flex;
+  display: flex;
 }
 
 .logo {
-    font-family: "Cedarville Cursive";
-    font-weight: 400;
-    font-size: 32px;
+  font-family: "Cedarville Cursive";
+  font-weight: 400;
+  font-size: 32px;
 }
 
 .header-slogan {
-    font-family: 'Cedarville Cursive';
-    font-weight: 400;
-    font-size: 28px;
+  font-family: "Cedarville Cursive";
+  font-weight: 400;
+  font-size: 28px;
 }
 
 .header-text {
-    font-family: "Josefin Sans";
-    font-weight: 700;
+  font-family: "Josefin Sans";
+  font-weight: 700;
 }
 
 h1 {
-    font-size: 63px;
+  font-size: 63px;
 }
 
 h2 {
-    font-size: 38px;
+  font-size: 38px;
 }
 
 p {
-    font-family: 'Alegreya Sans';
-    font-weight: 400;
-    font-size: 19px;
-    letter-spacing: 0.001em;
-    line-height: 36px;
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+  font-size: 19px;
+  letter-spacing: 0.001em;
+  line-height: 36px;
 }
 
 article {
-    width: 60%;
+  width: 60%;
 }
 
 .nav-top {
-    display: flex;
-    gap: 80px;
-    align-items: center;
+  display: flex;
+  gap: 80px;
+  align-items: center;
 }
 
 .nav-aside {
-    display: flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    margin-left: 25%;
-    align-items: flex-start;
-    justify-content: flex-start;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  margin-left: 25%;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .button {
-    background-color: #2D635E;
-    color: #FFFFFF;
-    border: none;
+  background-color: #2d635e;
+  color: #ffffff;
+  border: none;
 }
 
 button:hover {
-    cursor: pointer;
+  cursor: pointer;
 }
 
 .button-small {
-    border-radius: 7px;
-    width: 135px;
-    height: 43px;
+  border-radius: 7px;
+  width: 135px;
+  height: 43px;
 }
 
 .button-big {
-    border-radius: 5px;
-    width: 235px;
-    height: 54px;
+  border-radius: 5px;
+  width: 235px;
+  height: 54px;
 }
 
 .menu-font {
-    font-family: "Josefin Sans";
-    font-weight: 700;
-    font-size: 16px;
+  font-family: "Josefin Sans";
+  font-weight: 700;
+  font-size: 16px;
 }
 
 .menu-font-align {
-    text-align: justify;
+  text-align: justify;
 }
 
 .general {
-    margin-top: 1%;
-    display: flex;
-    justify-content: space-between;
+  margin-top: 1%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .page {
-    width: 90%;
+  width: 90%;
 }
 
-.main-block{
-    margin-bottom: 10%;
-    display: flex;
-    align-items: flex-end;
+.main-block {
+  margin-bottom: 10%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .main-block-text {
-    width: 50%;
+  width: 50%;
 }
 
 .square-light-green {
-    background-color: #E3EBE7;
-    width: 159px;
-    height: 157px;
-    opacity: 0.4;
-    font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    justify-self: flex-end;
+  background-color: #e3ebe7;
+  width: 159px;
+  height: 157px;
+  opacity: 0.4;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: flex-end;
 }
 
 .jar-wrap {
-    width: 410px;
-    height: 466px;
-    background-color: #E3EBE7;
-    margin: 0 0 0 0;
+  width: 410px;
+  height: 466px;
+  background-color: #e3ebe7;
+  margin: 0 0 0 0;
 }
 
 .jar-label {
-    font-family: "Cedarville Cursive";
-    font-weight: 400;
-    font-size: 72px;
-    color: #444A4A;
-    position: relative;
-    bottom: -5em;
-    left: 2em;
+  font-family: "Cedarville Cursive";
+  font-weight: 400;
+  font-size: 72px;
+  color: #444a4a;
+  position: relative;
+  bottom: -5em;
+  left: 2em;
 }
 
 .jarr {
-    position: relative;
-    bottom: 2em;
-    left: 2em;
+  position: relative;
+  bottom: 2em;
+  left: 2em;
 }
 
 .about-us {
-    margin-bottom: 10%;
-    display: flex;
-    justify-content: space-between;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .vertical-label {
-    font-family: 'Cedarville Cursive';
-    font-weight: 400;
-    font-size: 28px;
-    opacity: 0.75;
-    transform: rotate(-90deg);
+  font-family: "Cedarville Cursive";
+  font-weight: 400;
+  font-size: 28px;
+  opacity: 0.75;
+  transform: rotate(-90deg);
 }
 
 .cup-label {
-    position: relative;
-    top: -5em;
-    left: -6em;
+  position: relative;
+  top: -5em;
+  left: -6em;
 }
 
 .cup-wrap {
-    width: 380px;
-    height: 287px;
-    background-color: #FAE9E0;
-    margin: 0 0 0 0;
+  width: 380px;
+  height: 287px;
+  background-color: #fae9e0;
+  margin: 0 0 0 0;
 }
 
 .cup {
-    position: relative;
-    bottom: 2em;
-    left: 2em;
+  position: relative;
+  bottom: 2em;
+  left: 2em;
 }
 
 .promotion {
-    margin-bottom: 10%;
-    display: flex;
-    justify-content: space-between;
+  margin-bottom: 10%;
+  display: flex;
+  justify-content: space-between;
 }
 
 .glass-wrap {
-    width: 410px;
-    height: 267px;
-    background-color: #E3EBE7;
-    margin: 0 0 0 0;
+  width: 410px;
+  height: 267px;
+  background-color: #e3ebe7;
+  margin: 0 0 0 0;
 }
 
 .glass-label {
-    position: relative;
-    top: -6em;
-    right: -7em;
+  position: relative;
+  top: -6em;
+  right: -7em;
 }
 
 .glass {
-    position: relative;
-    bottom: 7em;
-    left: 4em;
+  position: relative;
+  bottom: 7em;
+  left: 4em;
 }
 
 .follow-us {
-    height: 8%;
-    color: #444A4A;
-    font-family: "Josefin Sans";
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    transform: rotate(-90deg);
-    margin: 0 0 0 0;
+  height: 8%;
+  color: #444a4a;
+  font-family: "Josefin Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  transform: rotate(-90deg);
+  margin: 0 0 0 0;
 }
 
 .footer {
-    font-size: 19px;
-    font-family: "Alegreya Sans";
-    font-weight: 400;
-    color: #444A4A;
-    text-align: center;
+  font-size: 19px;
+  font-family: "Alegreya Sans";
+  font-weight: 400;
+  color: #444a4a;
+  text-align: center;
 }
 
 a:link {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 a:visited {
-    color: black;
+  color: black;
 }
