@@ -10,7 +10,8 @@
     "build": "webpack --env production",
     "build_serv": "webpack serve --env production",
     "dev": "webpack --env development",
-    "dev_serv": "webpack serve --env development"
+    "dev_serv": "webpack serve --env development",
+    "prepare": "husky install"
   },
   "repository": {
     "type": "git",
@@ -42,5 +43,9 @@
     "webpack": "^5.76.2",
     "webpack-cli": "^5.0.1",
     "webpack-dev-server": "^4.13.1"
+  },
+  "lint-staged": {
+    "*.js": "eslint --fix",
+    "*.{js,css}": "prettier --write"
   }
 }
