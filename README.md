@@ -1,4 +1,4 @@
-<img src="https://img.shields.io/badge/HTML-blue"> <img src="https://img.shields.io/badge/CSS-blue">
+<img src="https://img.shields.io/badge/HTML-orange"> <img src="https://img.shields.io/badge/CSS-purple">
 <img src="https://img.shields.io/badge/figma-green"> <img src="https://img.shields.io/badge/design-green">
 
 ## Coffee Shop landing
